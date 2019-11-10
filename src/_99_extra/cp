@@ -1,0 +1,4 @@
+string flour =JOptionPane.showinputdialog("How many cups of flour do you have?")
+integer.parse.int(flour)
+if(flour>2){JOptionPane.showmessagediolog(null)("You are good")
+else{JOptionPane.showmessagediolog(null)("Go to the store now or else you cant cook")
