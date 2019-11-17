@@ -1,4 +1,24 @@
-string flour =JOptionPane.showinputdialog("How many cups of flour do you have?")
-integer.parse.int(flour)
-if(flour>2){JOptionPane.showmessagediolog(null)("You are good")
-else{JOptionPane.showmessagediolog(null)("Go to the store now or else you cant cook")
+String flour =JOptionPane.showInputDialog("How many cups of flour do you have?")
+int numberflower =Integer.parseInt(flour);
+if(numberflour>2){
+JOptionPane.showmessagediolog(null)("You are good");
+}
+else{JOptionPane.showmessagediolog(null)("Go to the store now or else you can't cook!");
+}
+
+String people = JOptionPane.showInputDiaolog("How many people will you give the cookies to?");
+int amount=Integer.parseInt(people);
+if (amount > 30) { 
+JOptionPane.showMessageDialog (null, " You have to bake two batches!");
+}
+String cookies= JOptionPane.showInputDialog ("How many batches of cookies did you make?");
+
+int numbercookies = Integer.parseInt(cookies);
+if (numbercookies == 2) {
+	JOptionPane.showMessageDialog (null, "You are lucky to have so many friends!");
+}
+printMessage();
+
+setName("NameInput");
+
+int x = getNumber();
